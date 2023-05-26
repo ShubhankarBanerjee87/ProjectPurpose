@@ -1,0 +1,39 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Mint Your NFT</h1>
+
+<form>
+    <div class="mb-3">
+        <label for="NFTHolderAddress" class="form-label">NFT Holder Address</label>
+        <input type="text" class="form-control" id="NFTHolderAddress" @bind=Address>
+    </div>
+    <div class="mb-3">
+        <label for="NFTName" class="form-label">NFT Name</label>
+        <input type="text" class="form-control" id="NFTName" @bind=Name >
+    </div>
+    <div class="mb-3">
+        <label for="NFTDescription" class="form-label">NFT Description</label>
+        <textarea class="form-control" id="NFTDescription" rows="3" @bind=Description></textarea>
+    </div>
+    <div class="mb-3">
+        <label for="NFTFile" class="form-label">Upload File</label>
+        <input type="file" class="form-control" id="NFTFile" @bind=Path>
+    </div>
+    OR
+    <div class="mb-3">
+        <label for="NFTFileUrl" class="form-label">Paste the Url</label>
+        <input type="text" class="form-control" id="NFTFileUrl" @bind=Url>
+    </div>
+    Note - NFT Creation takes money
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label " for="exampleCheck1">I Agree</label>
+    </div>
+    <button type="button" @onclick="()=>GetFormData(Address,Name,Description,Path,Url)" class="btn btn-primary">Submit</button>
+</form>
+
+ 
+<div class="lead my-3 @nftStatusCls">@nftStatus</div>
+

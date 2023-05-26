@@ -1,0 +1,13 @@
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\obj\Debug\ExternalAPI.csproj.AssemblyReference.cache
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\obj\Debug\ExternalAPI.csproj.SuggestedBindingRedirects.cache
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\obj\Debug\ExternalAPI.csproj.CoreCompileInputs.cache
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\ExternalAPI.exe.config
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\ExternalAPI.exe
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\ExternalAPI.pdb
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\obj\Debug\ExternalAPI.csproj.CopyComplete
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\obj\Debug\ExternalAPI.exe
+C:\Users\subhankarb\source\repos\ExternalAPI\ExternalAPI\obj\Debug\ExternalAPI.pdb

@@ -1,0 +1,57 @@
+﻿@page "/wallet"
+<h2>NFTWallet</h2>
+
+<div class="mb-3">
+    <label for="NFTHolderAddress" class="form-label">NFT Holder Address</label>
+    <input type="text" class="form-control" id="NFTHolderAddress" @bind=NFTAddress>
+</div>
+<button type="button" @onclick="()=>NFTHolderAsync(NFTAddress)" class="btn btn-primary">Submit</button>
+
+
+@if(@NFTEntries != null)
+{
+    @foreach(var NFT in NFTEntries)
+    {
+            <div class="card" style="width: 18rem;">
+                <img src="@NFT.NFTImageURL" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@NFT.NFTName</h5>
+                    <p class="card-text">@NFT.NFTDescription</p>
+                </div>
+            </div>
+    }
+}
+
+else{
+    <h3>NO NFT To show</h3>
+}
+
+
+
+@*<table class='table'>
+    <thead>
+        <tr>
+            <th>NFT Name</th>
+            <th>NFT Description</th>
+            <th>NFT URL</th>
+            <th>NFT Hash</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var NFT in NFTEntries)
+        {
+            <tr>
+                <td>@NFT.NFTName'</td>
+                <td>@NFT.NFTDescription</td>
+                <td>@NFT.NFTImageURL</td>
+                <td>@NFT.NFTImageHash</td>
+                <td>
+                    @*<input type="button" value="Edit" @onclick="() => GetNFTDetails(NFT.tokenId)" class="btn btn-primary" />
+                    <input type="button" value="Delete" @onclick="() => DeleteSales(sales.SalesId)" class="btn btn-danger" />*@
+
+@*               </td>
+            </tr>
+        }
+    </tbody>
+</table>
+*@
